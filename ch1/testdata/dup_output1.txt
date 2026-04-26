@@ -1,0 +1,2 @@
+3	apple
+2	banana

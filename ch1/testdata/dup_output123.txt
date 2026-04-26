@@ -1,0 +1,4 @@
+3	mango
+2	lemon
+3	apple
+4	banana

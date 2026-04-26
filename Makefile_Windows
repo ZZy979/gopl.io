@@ -1,0 +1,18 @@
+SHELL := cmd.exe
+.SHELLFLAGS := /c
+
+all:
+	for /d %%d in (ch*) do ( \
+	  mkdir out\%%d & \
+	  go build -o out\%%d ./%%d/... \
+	)
+
+test: all
+	for /d %%d in (ch*) do ( \
+	  go test -v ./%%d \
+	)
+
+clean:
+	rd /s /q out
+
+.PHONY: all test clean
