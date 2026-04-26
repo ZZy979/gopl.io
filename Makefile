@@ -6,7 +6,7 @@ all:
 
 test: all
 	for d in $(wildcard ch*); do \
-	  go test -v ./...; \
+	  go test -v ./$$d; \
 	done
 
 clean:
