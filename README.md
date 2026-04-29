@@ -45,9 +45,13 @@ $ make test
 * [gopl.io/ch1/echo1](ch1/echo1/main.go) 打印命令行参数1
 * [gopl.io/ch1/echo2](ch1/echo2/main.go) 打印命令行参数2
 * [gopl.io/ch1/echo3](ch1/echo3/main.go) 打印命令行参数3
+* [练习1.1](ch1/exec1-1/main.go)
+* [练习1.2](ch1/exec1-2/main.go)
+* [练习1.3](ch1/exec1-3/main.go)
 * [gopl.io/ch1/dup1](ch1/dup1/main.go) 查找重复的行1
 * [gopl.io/ch1/dup2](ch1/dup2/main.go) 查找重复的行2
 * [gopl.io/ch1/dup3](ch1/dup3/main.go) 查找重复的行3
+* [练习1.4](ch1/exec1-4/main.go)
 * [gopl.io/ch1/lissajous](ch1/lissajous/main.go) 李萨如图形
 * [gopl.io/ch1/fetch](ch1/fetch/main.go) 获取URL
 * [gopl.io/ch1/fetchall](ch1/fetchall/main.go) 并发获取URL
