@@ -9,7 +9,7 @@ all:
 
 test: all
 	for /d %%d in (ch*) do ( \
-	  go test -v ./%%d \
+	  go test -v ./%%d/... \
 	)
 
 clean:

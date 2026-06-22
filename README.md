@@ -67,3 +67,12 @@ $ go test -v ch1
 * [gopl.io/ch1/server2](ch1/server2/main.go) Web服务器2
 * [gopl.io/ch1/server3](ch1/server3/main.go) Web服务器3
 * [gopl.io/ch1/exec1-12](ch1/exec1-12/main.go) 练习1.12
+
+### 第2章 程序结构
+* [gopl.io/ch2/boiling](ch2/boiling/main.go) 打印温度
+* [gopl.io/ch2/ftoc](ch2/ftoc/main.go) 打印温度转换
+* [gopl.io/ch2/echo4](ch2/echo4/main.go) 打印命令行参数4（支持标志）
+* [gopl.io/ch2/tempconv0](ch2/tempconv0/celsius.go) 温度转换
+* [gopl.io/ch2/tempconv](ch2/tempconv) 温度转换
+* [gopl.io/ch2/cf](ch2/cf/main.go) 导入包
+* [gopl.io/ch2/popcount](ch2/popcount/main.go) 二进制位计数
