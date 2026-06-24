@@ -14,6 +14,7 @@ func TestString(t *testing.T) {
 		{fmt.Sprintf("%s", AbsoluteZeroC), "-273.15°C"},
 		{fmt.Sprint(Fahrenheit(32)), "32°F"},
 		{Fahrenheit(-300).String(), "-300°F"},
+		{Kelvin(4000).String(), "4000K"},
 	}
 	for _, tc := range testCases {
 		if tc.s != tc.expected {

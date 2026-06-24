@@ -33,3 +33,8 @@ func TestCf(t *testing.T) {
 	args := []string{"32", "212", "-40", "0", "100"}
 	testutil.RunTest(t, "ch2", "cf", "cf_output.txt", args...)
 }
+
+func TestExec2_2(t *testing.T) {
+	args := []string{"1", "2.5", "123.45"}
+	testutil.RunTest(t, "ch2", "exec2-2", "exec2-2_output.txt", args...)
+}

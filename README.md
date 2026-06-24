@@ -73,6 +73,7 @@ $ go test -v ch1
 * [gopl.io/ch2/ftoc](ch2/ftoc/main.go) 打印温度转换
 * [gopl.io/ch2/echo4](ch2/echo4/main.go) 打印命令行参数4（支持标志）
 * [gopl.io/ch2/tempconv0](ch2/tempconv0/celsius.go) 温度转换
-* [gopl.io/ch2/tempconv](ch2/tempconv) 温度转换
+* [gopl.io/ch2/tempconv](ch2/tempconv) 温度转换、练习2.1
 * [gopl.io/ch2/cf](ch2/cf/main.go) 导入包
-* [gopl.io/ch2/popcount](ch2/popcount/main.go) 二进制位计数
+* [gopl.io/ch2/exec2-2](ch2/exec2-2/main.go) 练习2.2
+* [gopl.io/ch2/popcount](ch2/popcount/main.go) 二进制位计数、练习2.3~2.5
