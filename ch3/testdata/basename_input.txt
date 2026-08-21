@@ -1,0 +1,7 @@
+a
+a.go
+a/b/c.go
+a/b.c.go
+foo/bar/baz
+/usr/bin/sh
+/

@@ -1,0 +1,4 @@
+10001 true
+10000 false
+10010 false
+10010 true
