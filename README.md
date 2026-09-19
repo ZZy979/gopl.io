@@ -80,9 +80,14 @@ $ go test -v ch1
 
 ### 第3章 基本数据类型
 * [gopl.io/ch3/surface](ch3/surface/main.go) 绘制二元函数图像
+* [gopl.io/ch3/exec3-1](ch3/exec3-1/main.go) 练习3.1~3.4
 * [gopl.io/ch3/mandelbrot](ch3/mandelbrot/main.go) 曼德勃罗集
+* [gopl.io/ch3/exec3-5](ch3/exec3-5/main.go) 练习3.5
 * [gopl.io/ch3/basename1](ch3/basename1/main.go) 提取文件名1
 * [gopl.io/ch3/basename2](ch3/basename2/main.go) 提取文件名2
 * [gopl.io/ch3/comma](ch3/comma/main.go) 整数千位分隔符
 * [gopl.io/ch3/printints](ch3/printints/main.go) 打印整数切片
+* [gopl.io/ch3/exec3-10](ch3/exec3-10/comma.go) 练习3.10~3.11
+* [gopl.io/ch3/exec3-12](ch3/exec3-12/anagram.go) 练习3.12
 * [gopl.io/ch3/netflag](ch3/netflag/main.go) 网络标志位
+* [gopl.io/ch3/exec3-13](ch3/exec3-13/consts.go) 练习3.13

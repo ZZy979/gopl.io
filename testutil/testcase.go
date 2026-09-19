@@ -25,6 +25,9 @@ type TestCase struct {
 
 	// 是否对输出行进行排序
 	SortLines bool
+
+	// 是否以二进制格式比较输出
+	Binary bool
 }
 
 // Run 运行指定的程序，并比较标准输出
@@ -46,7 +49,11 @@ func (c *TestCase) Run(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Failed to open output file %q: %v", outputPath, err)
 	}
-	expectedOutput := replaceNewlines(b)
+
+	expectedOutput := b
+	if !c.Binary {
+		expectedOutput = replaceNewlines(b)
+	}
 
 	actualOutput, err := c.Program.Run(c.Args, stdin)
 	if err != nil {
