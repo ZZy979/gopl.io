@@ -134,13 +134,13 @@ func getColor(min, max, value float64) string {
 	var c color.RGBA
 	switch {
 	case x < 0.25: // #0000FF -> #00FFFF
-		c = color.RGBA{0, uint8(255 * x / 0.25), 255, 255}
+		c = color.RGBA{0, uint8(math.Round(255 * x / 0.25)), 255, 255}
 	case x < 0.5: // #00FFFF -> #00FF00
-		c = color.RGBA{0, 255, uint8(255 * (0.5 - x) / 0.25), 255}
+		c = color.RGBA{0, 255, uint8(math.Round(255 * (0.5 - x) / 0.25)), 255}
 	case x < 0.75: // #00FF00 -> #FFFF00
-		c = color.RGBA{uint8(255 * (x - 0.5) / 0.25), 255, 0, 255}
+		c = color.RGBA{uint8(math.Round(255 * (x - 0.5) / 0.25)), 255, 0, 255}
 	default: // #FFFF00 -> #FF0000
-		c = color.RGBA{255, uint8(255 * (1.0 - x) / 0.25), 0, 255}
+		c = color.RGBA{255, uint8(math.Round(255 * (1.0 - x) / 0.25)), 0, 255}
 	}
 	return fmt.Sprintf("#%02x%02x%02x", c.R, c.G, c.B)
 }
