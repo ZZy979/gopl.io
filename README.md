@@ -91,3 +91,20 @@ $ go test -v ch1
 * [gopl.io/ch3/exec3-12](ch3/exec3-12/anagram.go) 练习3.12
 * [gopl.io/ch3/netflag](ch3/netflag/main.go) 网络标志位
 * [gopl.io/ch3/exec3-13](ch3/exec3-13/consts.go) 练习3.13
+
+### 第4章 复合类型
+* [gopl.io/ch4/sha256](ch4/sha256/main.go) SHA256摘要
+* [gopl.io/ch4/rev](ch4/rev/main.go) 反转切片元素
+* [gopl.io/ch4/append](ch4/append/main.go) append函数实现
+* [gopl.io/ch4/nonempty](ch4/nonempty/main.go) 删除切片中的空串
+* [gopl.io/ch4/dedup](ch4/dedup/main.go) 去除重复的行
+* [gopl.io/ch4/charcount](ch4/charcount/main.go) 字符出现次数
+* [gopl.io/ch4/graph](ch4/graph/main.go) 有向图邻接表
+* [gopl.io/ch4/treesort](ch4/treesort/sort.go) 用二叉树实现插入排序
+* [gopl.io/ch4/embed](ch4/embed/main.go) 结构体嵌入
+* [gopl.io/ch4/movie](ch4/movie/main.go) JSON编码和解码
+* [gopl.io/ch4/github](ch4/github/search.go) GitHub Issue查询函数
+* [gopl.io/ch4/issues](ch4/issues/main.go) GitHub Issue查询-文本表格
+* [gopl.io/ch4/issuesreport](ch4/issuesreport/main.go) GitHub Issue查询-文本模板
+* [gopl.io/ch4/issueshtml](ch4/issueshtml/main.go) GitHub Issue查询-HTML模板
+* [gopl.io/ch4/autoescape](ch4/autoescape/main.go) HTML自动转义

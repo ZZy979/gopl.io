@@ -1,0 +1,151 @@
+87 issues:
+----------------------------------------
+Number: 80117
+User:   dsnet
+Title:  encoding/json/jsontext: Decoder.Reset and Encoder.Reset should a
+Age:    103 days
+----------------------------------------
+Number: 81033
+User:   itchyny
+Title:  encoding/json: Decoder.More reports a SyntaxError instead of io.
+Age:    43 days
+----------------------------------------
+Number: 81050
+User:   adamroyjones
+Title:  encoding/json: fmt.Print representation of json.RawMessage chang
+Age:    42 days
+----------------------------------------
+Number: 43513
+User:   AlexanderYastrebov
+Title:  proposal: encoding/json/v2, encoding/json/jsontext: add line num
+Age:    2099 days
+----------------------------------------
+Number: 71475
+User:   oiweiwei
+Title:  encoding/json: improve decoder alloc count
+Age:    614 days
+----------------------------------------
+Number: 80885
+User:   thepudds
+Title:  encoding/json/v2: possibly clarify retention prohibitions in doc
+Age:    51 days
+----------------------------------------
+Number: 80115
+User:   dsnet
+Title:  encoding/json/jsontext: make trailing comma error more clear
+Age:    103 days
+----------------------------------------
+Number: 81062
+User:   IBlackVoid
+Title:  encoding/json: Unmarshal leaves ±Inf in the destination on float
+Age:    42 days
+----------------------------------------
+Number: 65691
+User:   Merovius
+Title:  encoding/xml: Decoder does not reject xml-ProcInst preceeded by 
+Age:    965 days
+----------------------------------------
+Number: 67525
+User:   mateusz834
+Title:  encoding/json: don't silently ignore errors from (*Decoder).More
+Age:    868 days
+----------------------------------------
+Number: 56733
+User:   rolandshoemaker
+Title:  proposal: encoding/json/jsontext: add WithByteLimit and WithDept
+Age:    1420 days
+----------------------------------------
+Number: 80116
+User:   dsnet
+Title:  encoding/json/v2: WithinArshalCall check does not work for neste
+Age:    103 days
+----------------------------------------
+Number: 77642
+User:   gaaf
+Title:  encoding/json/v2: performance regression when umarshalling in []
+Age:    231 days
+----------------------------------------
+Number: 71618
+User:   romshark
+Title:  image/jpeg: improve decoder performance by ~12%
+Age:    604 days
+----------------------------------------
+Number: 27179
+User:   lavalamp
+Title:  encoding/json/v2: support preservation of object key ordering
+Age:    2964 days
+----------------------------------------
+Number: 6647
+User:   btracey
+Title:  x/pkgsite: display type kind of each named type
+Age:    4729 days
+----------------------------------------
+Number: 79604
+User:   gopherbot
+Title:  x/tools/gopls: syscall.StartProcess stuck after 18 minutes
+Age:    136 days
+----------------------------------------
+Number: 73457
+User:   torbenschinke
+Title:  proposal: encoding/json/v2: MarshalFunc with reflect.Type
+Age:    532 days
+----------------------------------------
+Number: 75475
+User:   falco467
+Title:  proposal: encoding/json/jsontext: add Encoder.Flush method
+Age:    385 days
+----------------------------------------
+Number: 26946
+User:   deuill
+Title:  encoding/json: clarify what happens when unmarshaling into a non
+Age:    2975 days
+----------------------------------------
+Number: 61627
+User:   nabice
+Title:  x/tools/gopls: feature: CLI syntax for renaming by identifier, n
+Age:    1165 days
+----------------------------------------
+Number: 28143
+User:   arp242
+Title:  proposal: encoding/json: add "readonly" tag
+Age:    2916 days
+----------------------------------------
+Number: 71664
+User:   dsnet
+Title:  proposal: encoding/json/v2: add support for user-defined format 
+Age:    600 days
+----------------------------------------
+Number: 34564
+User:   mdempsky
+Title:  go/internal/gcimporter: single source of truth for decoder logic
+Age:    2565 days
+----------------------------------------
+Number: 65873
+User:   mrwonko
+Title:  proposal: encoding/json: iter.Seq marshal support
+Age:    956 days
+----------------------------------------
+Number: 79149
+User:   cagedmantis
+Title:  x/build/cmd/gomote: failure when creating gotip-windows-amd64 go
+Age:    156 days
+----------------------------------------
+Number: 29750
+User:   jacoelho
+Title:  cmd/vet: stdmethods check gets confused if run on a package name
+Age:    2820 days
+----------------------------------------
+Number: 76406
+User:   aclements
+Title:  encoding/json/v2: working group meeting minutes
+Age:    317 days
+----------------------------------------
+Number: 19636
+User:   josselin-c
+Title:  encoding/base64: decoding is slow
+Age:    3485 days
+----------------------------------------
+Number: 45512
+User:   colin-sitehost
+Title:  encoding/json: cannot unmarshal custom interface value
+Age:    2002 days
