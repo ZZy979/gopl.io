@@ -1,0 +1,3 @@
+# Normalize line endings to avoid unit test failures on Windows.
+*.go text eol=lf
+*.txt text eol=lf
